@@ -1,0 +1,20 @@
+# get command example
+echo -e "ОТДОВАЙ Иван Хмурый\r\n\r" | nc 127.0.0.1 9999
+
+# create command exapmle
+echo -e "ЗОПИШИ Иван Хмурый РКСОК/1.0\r\n89012345678\r\n\r" | nc 127.0.0.1 9999
+
+# create command exapmle
+echo -e "ЗОПИШИ Иван Хмурый РКСОК/1.0\r\n02\r\n\r" | nc 127.0.0.1 9999
+
+# create command exapmle name > 30
+echo -e "ЗОПИШИ ИванАлексейАйдарБогданДуракШучуНеДурак Хмурый РКСОК/1.0\r\n89012345678\r\n\r" | nc 127.0.0.1 9999
+
+#  crate command example work number
+echo -e "ЗОПИШИ Иван Хмурый РКСОК/1.0\r\n89012345678 — мобильный\r\n02 — рабочий\r\n\r" | nc 127.0.0.1 9999
+
+#  delete command example
+echo -e "УДОЛИ Иван Хмурый РКСОК/1.0\r\n\r" | nc 127.0.0.1 9999
+
+#  delete command example
+    echo -e "УДОЛИ Айдар Хмурый РКСОК/1.0\r\n\r" | nc 127.0.0.1 9999
